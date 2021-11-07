@@ -1,0 +1,304 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 62.5%;
+  line-height: 18px;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+ol {
+  list-style-type: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.ContenedorMenu {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1320px;
+  background-color: #347494;
+  position: sticky;
+  z-index: 1000;
+  top: 0px;
+}
+
+.conteiner {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1320px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.col {
+  width: 100%;
+}
+
+.logoHome {
+  color: white;
+}
+
+h1 {
+  color: #347494;
+  position: relative;
+  font-size: 2rem;
+  padding: 3rem;
+  margin: 0rem;
+  text-align: center;
+}
+
+h2 {
+  color: #347494;
+  position: relative;
+  font-size: 2rem;
+  padding: 3rem;
+  margin: 0rem;
+  text-align: center;
+}
+
+.ButtonMenu {
+  text-align: right;
+  cursor: pointer;
+}
+
+.inicioSesionButton {
+  color: #347494;
+  background-color: white;
+}
+
+.inicioSesionButton:hover {
+  opacity: 0.3;
+}
+
+.registroButton {
+  color: white;
+  background-color: #347494;
+}
+
+.registroButton:hover {
+  opacity: 0.3;
+}
+
+header {
+  background: #347494;
+  padding: 0.5rem 0;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  position: sticky;
+  top: 0%;
+  z-index: 1;
+}
+
+.navList {
+  display: flex;
+  list-style: none;
+}
+
+.navItem {
+  margin: 0 0 0 1.5rem;
+}
+
+.navLink {
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.navLink:hover {
+  opacity: 0.5;
+}
+
+.introSection {
+  background: white;
+  padding: 8rem 0 0 0;
+}
+
+#textodeinicio {
+  color: #347494;
+  text-align: left;
+  font-size: 2rem;
+  font-weight: bold;
+  position: relative;
+  margin-top: 1.2rem;
+  line-height: 50px;
+}
+
+.adoptarButton {
+  color: white;
+  background-color: #e76c7b;
+  position: relative;
+  padding: 0.5rem;
+  margin: 1rem;
+  transition: all 2s;
+  cursor: pointer;
+}
+
+.adoptarButton:hover {
+  transform: scale(1.5, 1.5);
+}
+
+.ImagenInicio {
+  margin-top: 0;
+  text-align: right;
+  transform: translate(-10px, -30px);
+}
+
+.buscadorMascotas {
+  color: white;
+  background-color: #ed973e;
+  text-align: center;
+  position: relative;
+  padding: 2rem;
+  margin: 0rem;
+  font-size: 1rem;
+  background-image: linear-gradient(to right, #ecbd8b, #ed973e);
+}
+
+footer {
+  color: white;
+  background-color: #347494;
+  font-size: 1rem;
+  padding: 2rem;
+  margin: 0rem;
+}
+
+.conteiner {
+  width: 80%;
+  max-width: 1320px;
+  margin: 0 auto;
+}
+
+/*Servicios*/
+
+.tablaServicios {
+  position: relative;
+  padding: 2rem;
+  margin: 3rem;
+  font-size: 1rem;
+  text-align: center;
+  border: 2px 2px 2px 2px;
+}
+
+tr {
+  margin-top: 0;
+  text-align: center;
+}
+
+th {
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.containerServ {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.visual {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0rem;
+}
+
+legend {
+  color: #347494;
+  position: relative;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 3rem;
+  margin: 0rem;
+  text-align: center;
+}
+
+.formularioInterno {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+input {
+  width: 300px;
+  height: 20px;
+  transition: 2s;
+}
+
+input:focus {
+  width: 400px;
+  font: 25px;
+}
+
+/*Testimonios*/
+
+.SectionTest {
+  display: grid;
+}
+
+.textoTestimonio {
+  position: relative;
+  text-align: center;
+  font-size: 1rem;
+  line-height: 25px;
+  font-style: italic;
+  padding: 3rem;
+  margin: 0rem;
+  border-top: solid 5px #ed973e;
+  border-right: solid 5px #ed973e;
+  border-bottom: solid 5px #ed973e;
+  border-left: solid 5px #ed973e;
+}
+
+/*Preguntas frecuentes*/
+
+.FAQS {
+  font-size: 1rem;
+  position: relative;
+  padding: 2rem;
+  margin: 0rem;
+  line-height: 25px;
+}
+
+/*Valores*/
+
+.tablaValores {
+  font-size: 1rem;
+  color: #347494;
+  line-height: 25px;
+  padding: 2rem;
+  margin: 1rem;
+}
+
+.ButtonDonacion {
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  background-color: #347494;
+  padding: 1rem;
+  margin: 2rem;
+  text-align: center;
+}
+
+.QuieroAyudarButton {
+  padding: 2rem;
+  margin: 0rem;
+}

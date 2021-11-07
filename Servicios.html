@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700&display=swap"
+    />
+      <path
+        fill="currentColor"
+        d="M297.1 224L448 277.5v218.5C448 504.9 440.9 512 432 512h-64c-8.875 0-16-7.125-16-15.1v-111.1H192v111.1C192 504.9 184.9 512 176 512h-64C103.1 512 96 504.9 96 496v-213.9C58.88 268.9 32 233.6 32 192c0-17.62 14.38-31.1 32-31.1s32 14.37 32 31.1s14.38 31.1 32 31.1H297.1zM544 112v31.1c0 35.37-28.62 63.1-64 63.1l-32 .0005v35.62l-128-45.75V48c0-14.25 17.25-21.37 27.25-11.25l27.38 27.25l53.63-.0008c10.88 0 23.75 7.875 28.62 17.75L464 96l64 .0006C536.9 96 544 103.1 544 112zM432 112c0-8.875-7.125-15.1-16-15.1s-16 7.124-16 15.1s7.125 15.1 16 15.1S432 120.9 432 112z"
+      ></path>
+    </svg>
+    <title>Pets' Home: conocé a tu próximo mejor amigo</title>
+  </head>
+  <body>
+    <header>
+      <div class="ContenedorMenu">
+        <div class="row">
+        <a href="index.html" class="logoHome">
+          <img src="Img/LogoPetsHome.svg" alt="logo"/>
+        </a>
+        <nav>
+          <ul class="navList">
+            <li class="navItem">
+              <a href="Valores.html" class="navLink">Valores</a>
+            </li>
+            <li class="navItem"><a href="Servicios.html" class="navLink">Servicios</a></li>
+            <li class="navItem"><a href="Testimonios.html" class="navLink">Testimonios</a></li>
+            <li class="navItem"><a href="PreguntasFrecuentes.html" class="navLink">Preguntas Frecuentes</a></li>
+          </ul>
+        </nav>
+        <div class="ButtonMenu">
+          <button class="ButtonMenu inicioSesionButton">INICIAR SESIÓN</button>
+          <button class="ButtonMenu registroButton">REGISTRARME</button>
+        </div>
+      </div>
+      </div>
+    </header>
+    <h2>Servicios</h2>
+    <div class="containerServ">
+      <div class="card">
+          <div class="visual"><img src="Img/QuieroMatchear.png" alt="QuieroMatchear"></div>
+        <h2>Quiero Matchear</h2>
+        <p>Completá el formulario de
+      características y te recomendaremos
+      mascotas que se adapten a tu perfil.</p>
+      </div>
+      <div class="card">
+          <div class="visual"><img src="Img/TengoRefugio.png" alt="TengoRefugio"></div>
+        <h2>Tengo un refugio</h2>
+        <p>Me gustaría registrar las mascotas
+      que tengo para que encuentren
+      a su dueño indicado.</p>
+      </div>
+      <div class="card">
+          <div class="visual"><img src="Img/DarAdopcion.png" alt="DarAdopcion"></div>
+        <h2>Quiero dar en adopción</h2>
+        <p>No puedo tener más a mi mascota
+      y me gustaría que encuentre un
+      dueño responsable.</p>
+      </div>
+        </div>
+    <form action="">
+      <fieldset>
+        <legend>Completá el formulario</legend>
+        <br />
+        <div class="formularioInterno">
+          <label for="nombre">Nombre:</label>
+          <input
+            type="text"
+            name="nombre"
+            id="nombre"
+            placeholder="Escriba aquí su nombre"
+          />
+          <br /><br />
+          <label for="apellido">Apellido:</label>
+          <input
+            type="text"
+            name="apellido"
+            id="apellido"
+            placeholder="Escriba aquí su apellido"
+          />
+          <br /><br />
+          <label for="mail">Mail:</label>
+          <input
+            type="text"
+            name="mail"
+            id="mail"
+            placeholder="Escriba aquí su mail"
+          />
+          <br />
+          <br />
+          <div>Tengo un refugio</div>
+          <input type="radio" name="sexo" value="Refugio" />
+          <div>Quiero adoptar</div>
+          <input type="radio" name="sexo" value="Quiero adoptar" />
+          <div>Quiero dar en adopción</div>
+          <input type="radio" name="sexo" value="Quiero dar en adopción" />
+          <br />
+          <br />
+          <div>Me gustaría adoptar o entregar mi mascota</div>
+          <select name="Situación actual" id="Situación actual">
+            <option value="De forma inmediata">De forma inmediata</option>
+            <option value="No es tan urgente">No es tan urgente</option>
+          </select>
+          <br />
+          <br />
+          <label for="mensaje">Mensaje</label>
+          <br />
+        </div>
+        <textarea
+          placeholder="Contanos en detalle porqué querés adoptar o dar en adopción"
+          name="mensajes"
+          id="mensaje"
+          cols="30"
+          rows="10"
+        ></textarea>
+        <br />
+        <input type="submit" value="ENVIAR" />
+        <input type="reset" value="Limpiar formulario" />
+        <br />
+        <br />
+        <div>Aceptar los términos y condiciones</div>
+        <input type="checkbox" name="aceptar" value="1" />
+        <br />
+      </fieldset>
+    </form>
+    <footer class="footer">
+      <div class="footerMenu">
+      <div class="container">
+      <a href="Valores.html"><h4>Valores</h4></a>
+      <a href="Servicios.html"><h4>Servicios</h4></a>
+      <a href="Testimonios.html"><h4>Testimonios</h4></a>
+      <a href="PreguntasFrecuentes.html"><h4>PreguntasFrecuentes</h4></a>
+    </div>
+  </div>
+      <div class="footer-sm">
+<div class="container">
+      <a href="https://instagram.com"><img src="Img/IG-ico.ico" alt="Instagram" /></a>
+      <a href="https://facebook.com"><img src="Img/FB-ico.ico" alt="Facebook" /></a>
+      <a href="https://twitter.com"><img src="Img/TW-ico.ico" alt="Twitter" /></a>
+      <a href="https://whatsapp.com"><img src="Img/WP-ico.ico" alt="Whatsapp" /></a>
+    </div>
+      <p>Designed with ❤ by JereVillegas, 2021.</p>
+    </div>
+  </div>
+    </footer>
+  </body>
+</html>
